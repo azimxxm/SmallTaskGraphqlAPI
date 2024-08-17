@@ -7,6 +7,9 @@
   • MVVM architecture
 
 ---
+## Project Video here:
+[Video open](https://drive.google.com/file/d/1GrInjFLWQzdo-lyQ2XhmpdzRYrwYsUKs/view?usp=sharing)
+---
 
 ## Technical Task for Interview: Integrate SWAPI GraphQL API with a SwiftUI iOS App
 
