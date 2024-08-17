@@ -17,9 +17,10 @@
 		CA8FACD32C6F7943005E96F0 /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FACD02C6F7943005E96F0 /* NetworkInterceptorProvider.swift */; };
 		CA8FACD42C6F7943005E96F0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FACD12C6F7943005E96F0 /* Network.swift */; };
 		CA8FACD52C6F7943005E96F0 /* AuthorizationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FACD22C6F7943005E96F0 /* AuthorizationInterceptor.swift */; };
-		CA8FACD82C6F7968005E96F0 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = CA8FACD72C6F7968005E96F0 /* Apollo */; };
-		CA8FACDA2C6F7968005E96F0 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = CA8FACD92C6F7968005E96F0 /* ApolloWebSocket */; };
-		CA8FACDE2C6F79F5005E96F0 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA8FACDD2C6F79F5005E96F0 /* KeychainSwift */; };
+		CA9B50132C70A3BE00FC9C41 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = CA9B50122C70A3BE00FC9C41 /* Apollo */; };
+		CA9B50152C70A3BE00FC9C41 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = CA9B50142C70A3BE00FC9C41 /* ApolloWebSocket */; };
+		CA9B50182C70A3C700FC9C41 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA9B50172C70A3C700FC9C41 /* KeychainSwift */; };
+		CA9B501B2C70A45D00FC9C41 /* SmallTaskAPI in Frameworks */ = {isa = PBXBuildFile; productRef = CA9B501A2C70A45D00FC9C41 /* SmallTaskAPI */; };
 		CAC4078A2C7067AF00800864 /* AllFilmsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC407892C7067AF00800864 /* AllFilmsListScreen.swift */; };
 		CAC4078C2C7067C700800864 /* AllFilmsListScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4078B2C7067C700800864 /* AllFilmsListScreenVM.swift */; };
 		CAC4078E2C7067E900800864 /* AllFilmsListDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4078D2C7067E900800864 /* AllFilmsListDM.swift */; };
@@ -62,12 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9B50182C70A3C700FC9C41 /* KeychainSwift in Frameworks */,
+				CA9B501B2C70A45D00FC9C41 /* SmallTaskAPI in Frameworks */,
 				CAC407942C706B5E00800864 /* SmallTaskAPI in Frameworks */,
+				CA9B50132C70A3BE00FC9C41 /* Apollo in Frameworks */,
+				CA9B50152C70A3BE00FC9C41 /* ApolloWebSocket in Frameworks */,
 				CA8FACCF2C6F78C1005E96F0 /* SmallTaskAPI in Frameworks */,
 				CAC407A02C70884700800864 /* SmallTaskAPI in Frameworks */,
-				CA8FACDA2C6F7968005E96F0 /* ApolloWebSocket in Frameworks */,
-				CA8FACDE2C6F79F5005E96F0 /* KeychainSwift in Frameworks */,
-				CA8FACD82C6F7968005E96F0 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,11 +208,12 @@
 			name = SmallTask;
 			packageProductDependencies = (
 				CA8FACCE2C6F78C1005E96F0 /* SmallTaskAPI */,
-				CA8FACD72C6F7968005E96F0 /* Apollo */,
-				CA8FACD92C6F7968005E96F0 /* ApolloWebSocket */,
-				CA8FACDD2C6F79F5005E96F0 /* KeychainSwift */,
 				CAC407932C706B5E00800864 /* SmallTaskAPI */,
 				CAC4079F2C70884700800864 /* SmallTaskAPI */,
+				CA9B50122C70A3BE00FC9C41 /* Apollo */,
+				CA9B50142C70A3BE00FC9C41 /* ApolloWebSocket */,
+				CA9B50172C70A3C700FC9C41 /* KeychainSwift */,
+				CA9B501A2C70A45D00FC9C41 /* SmallTaskAPI */,
 			);
 			productName = SmallTask;
 			productReference = CA1DB9F72C6F6F8000F6E9E4 /* SmallTask.app */;
@@ -241,9 +244,9 @@
 			);
 			mainGroup = CA1DB9EE2C6F6F8000F6E9E4;
 			packageReferences = (
-				CA8FACD62C6F7968005E96F0 /* XCRemoteSwiftPackageReference "apollo-ios" */,
-				CA8FACDC2C6F79F5005E96F0 /* XCRemoteSwiftPackageReference "keychain-swift" */,
-				CAC4079E2C70884700800864 /* XCLocalSwiftPackageReference "SmallTaskAPI" */,
+				CA9B50112C70A3BE00FC9C41 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				CA9B50162C70A3C700FC9C41 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				CA9B50192C70A45D00FC9C41 /* XCLocalSwiftPackageReference "SmallTaskAPI" */,
 			);
 			productRefGroup = CA1DB9F82C6F6F8000F6E9E4 /* Products */;
 			projectDirPath = "";
@@ -497,22 +500,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		CAC4079E2C70884700800864 /* XCLocalSwiftPackageReference "SmallTaskAPI" */ = {
+		CA9B50192C70A45D00FC9C41 /* XCLocalSwiftPackageReference "SmallTaskAPI" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = SmallTaskAPI;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CA8FACD62C6F7968005E96F0 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+		CA9B50112C70A3BE00FC9C41 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.14.1;
+				minimumVersion = 1.15.0;
 			};
 		};
-		CA8FACDC2C6F79F5005E96F0 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+		CA9B50162C70A3C700FC9C41 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
 			requirement = {
@@ -527,20 +530,24 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = SmallTaskAPI;
 		};
-		CA8FACD72C6F7968005E96F0 /* Apollo */ = {
+		CA9B50122C70A3BE00FC9C41 /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CA8FACD62C6F7968005E96F0 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			package = CA9B50112C70A3BE00FC9C41 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
 		};
-		CA8FACD92C6F7968005E96F0 /* ApolloWebSocket */ = {
+		CA9B50142C70A3BE00FC9C41 /* ApolloWebSocket */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CA8FACD62C6F7968005E96F0 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			package = CA9B50112C70A3BE00FC9C41 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = ApolloWebSocket;
 		};
-		CA8FACDD2C6F79F5005E96F0 /* KeychainSwift */ = {
+		CA9B50172C70A3C700FC9C41 /* KeychainSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CA8FACDC2C6F79F5005E96F0 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			package = CA9B50162C70A3C700FC9C41 /* XCRemoteSwiftPackageReference "keychain-swift" */;
 			productName = KeychainSwift;
+		};
+		CA9B501A2C70A45D00FC9C41 /* SmallTaskAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SmallTaskAPI;
 		};
 		CAC407932C706B5E00800864 /* SmallTaskAPI */ = {
 			isa = XCSwiftPackageProductDependency;
