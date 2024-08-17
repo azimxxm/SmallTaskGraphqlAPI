@@ -1,0 +1,20 @@
+query AllFilmsList {
+  allFilms {
+    films {
+      id
+      title
+      director
+      releaseDate
+      episodeID
+      openingCrawl
+      characterConnection {
+        characters {
+          name
+          id
+          birthYear
+          gender
+        }
+      }
+    }
+  }
+}
