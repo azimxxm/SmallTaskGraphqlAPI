@@ -8,9 +8,19 @@
 
 ---
 ## Project Video here:
-[Video open](https://drive.google.com/file/d/1GrInjFLWQzdo-lyQ2XhmpdzRYrwYsUKs/view?usp=sharing)
+[Clone project Video open](https://drive.google.com/file/d/1GrInjFLWQzdo-lyQ2XhmpdzRYrwYsUKs/view?usp=sharing)
 ---
+<table>
+  <tr>
+  <td><img src="https://github.com/user-attachments/assets/650209df-e810-4231-8ea5-8db2ae80d029" height=520></td>
+  <td><img src="https://github.com/user-attachments/assets/ca56201f-db23-411e-a2bb-d544e481755b" height=520></td>
+  <td><img src="https://github.com/user-attachments/assets/b7a9e060-5753-4a50-8e54-95c75189e7ef" height=520></td>
+  <td><img src="https://github.com/user-attachments/assets/d4b9eb71-e42b-47c4-908b-8b68d8e81983" height=520></td>
+  <td><img src="https://github.com/user-attachments/assets/5b808ae5-18f7-4000-b0d0-5fe93b11f49a" height=520></td>
+  </tr>
+ </table>
 
+---
 ## Technical Task for Interview: Integrate SWAPI GraphQL API with a SwiftUI iOS App
 
 ### Objective:
